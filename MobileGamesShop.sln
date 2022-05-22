@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApi", "ProductsApi\ProductsApi.csproj", "{9BF85549-8820-40ED-A4E4-8C4DA36E5A0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileGames.Web", "MobileGames.Web\MobileGames.Web.csproj", "{E3D1E6FD-76E8-4726-BAB0-C8D840A85115}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9BF85549-8820-40ED-A4E4-8C4DA36E5A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF85549-8820-40ED-A4E4-8C4DA36E5A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF85549-8820-40ED-A4E4-8C4DA36E5A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D1E6FD-76E8-4726-BAB0-C8D840A85115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D1E6FD-76E8-4726-BAB0-C8D840A85115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D1E6FD-76E8-4726-BAB0-C8D840A85115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D1E6FD-76E8-4726-BAB0-C8D840A85115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
