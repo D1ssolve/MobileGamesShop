@@ -1,3 +1,3 @@
 # MobileGamesShop
-Create migrations on projects
-Update database on projects
+Create migrations on projects and
+update database on projects
