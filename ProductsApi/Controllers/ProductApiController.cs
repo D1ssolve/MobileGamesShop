@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProductsApi.Models.Dto;
 using ProductsApi.Repository;
 
@@ -16,6 +17,7 @@ public class ProductApiController : ControllerBase
         _repository = repository;
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<ResponseDto> Get()
     {
@@ -33,6 +35,7 @@ public class ProductApiController : ControllerBase
         return _response;
     }
     
+    [Authorize]
     [HttpGet("{id:int}")]
     public async Task<ResponseDto> Get(int id)
     {
@@ -50,6 +53,7 @@ public class ProductApiController : ControllerBase
         return _response;
     }
     
+    [Authorize]
     [HttpPost]
     public async Task<ResponseDto> Post([FromBody] ProductDto productDto)
     {
@@ -67,6 +71,7 @@ public class ProductApiController : ControllerBase
         return _response;
     }
     
+    [Authorize]
     [HttpPut]
     public async Task<ResponseDto> Put([FromBody] ProductDto productDto)
     {
@@ -84,6 +89,7 @@ public class ProductApiController : ControllerBase
         return _response;
     }
     
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id:int}")]
     public async Task<ResponseDto> Delete(int id)
     {
