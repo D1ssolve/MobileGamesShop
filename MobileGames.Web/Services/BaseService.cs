@@ -21,7 +21,7 @@ public class BaseService : IBaseService
     {
         try
         {
-            var client = _httpClient.CreateClient("MongoApi");
+            var client = _httpClient.CreateClient("ProductsApi");
             var requestMessage = new HttpRequestMessage();
             requestMessage.Headers.Add("Accept", "application/json");
             requestMessage.RequestUri = new Uri(request.Url);

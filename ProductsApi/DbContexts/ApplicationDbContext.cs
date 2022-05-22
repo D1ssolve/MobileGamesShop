@@ -20,34 +20,34 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Product>().HasData(new Product
         {
             ProductId = 1,
-            Name = "Samosa",
+            Name = "Grand Theft Auto V",
             Price = 15,
-            Description = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-            CategoryName = "Appetizer"
+            Description = "Grand Theft Auto V is the world no. 1 mobile game and reimagines the open-world game in a number of ways.",
+            CategoryName = "Action"
         });
         modelBuilder.Entity<Product>().HasData(new Product
         {
             ProductId = 2,
-            Name = "Paneer Tikka",
+            Name = "Five Nights at Freddy's",
             Price = 13.99,
-            Description = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-            CategoryName = "Appetizer"
+            Description = "Even though there are successful and the best mobile games 2022 in all verticals, Five Nights at Freddy's: Security Breach dominates it all. It really, really dominates the dopamine rush. This indie game series has the most horrifying and extremely complicated timelines of Freddy.",
+            CategoryName = "Horror"
         });
         modelBuilder.Entity<Product>().HasData(new Product
         {
             ProductId = 3,
-            Name = "Sweet Pie",
+            Name = "Genshin Impact",
             Price = 10.99,
-            Description = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-            CategoryName = "Dessert"
+            Description = "This most popular game is a large, free exploration RPG that can be played anywhere and on any device. So, you would see a pair of magical twins roaming across universes for no apparent reason (to find each other) when an unknown and powerful deity thinks they are too full of themselves to leap between realities as they like and that this must come to an end.",
+            CategoryName = "Action"
         });
         modelBuilder.Entity<Product>().HasData(new Product
         {
             ProductId = 4,
-            Name = "Pav Bhaji",
+            Name = "GRID Autosport",
             Price = 15,
-            Description = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-            CategoryName = "Entree"
+            Description = "GRID Autosport is a renowned brand, also named as powerful Funny Cars because they are ordinary and are at the peak of GRID Autosport's drag racing. The sensation of driving one is like an all-out attack on the senses, as drivers attempt to subdue eight thousand horsepower while being pushed at speeds of over 300 miles per hour.",
+            CategoryName = "Racing"
         });
     }
 }
